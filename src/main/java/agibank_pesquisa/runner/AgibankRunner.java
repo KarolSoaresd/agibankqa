@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(publish = true, features = "src/main/resources/agibank_pesquisa.feature", glue = "agibank_pesquisa/steps_defs/AgibankSteps.java")
+@CucumberOptions(publish = true, features = "src/main/resources/features/agibank_pesquisa.feature", glue = "agibank_pesquisa/steps_defs")
 public class AgibankRunner {
 
 }
